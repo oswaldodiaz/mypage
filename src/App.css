@@ -1,0 +1,96 @@
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+}
+
+.profile-pic {
+    height: 7vmin;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+a {
+    color: #343a40;
+}
+
+a:hover {
+    color: #173798;
+    text-decoration: none;
+}
+
+div.media {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+div.media .media-heading .jobTotalDuration {
+    color: #666;
+    font-size: 14px;
+    display: block;
+}
+
+div.media img {
+    height: 10vmin;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+
+div.media .jobDuration {
+    color: #444;
+    display: block;
+}
+
+div.media .jobLocation {
+    color: #666;
+}
+
+div.media .jobDescription {
+
+}
+
+.formLabel {
+    text-align: right;
+    font-weight: bold;
+}
+
+.certificateLink {
+    color: cornflowerblue;
+}
+
+footer {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-top: #444444;
+    text-align: center;
+}
+
+footer a {
+    color: black;
+    font-size: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}

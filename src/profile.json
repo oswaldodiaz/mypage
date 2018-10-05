@@ -1,0 +1,119 @@
+{
+  "title": "Software Engineer",
+  "summary": "I'm passionate about Computer Software development, looking always for different and most efficient solutions to daily problems of clients. Always growing as a person and as a co worker, looking always to give my best for the company I'm working with.",
+  "studies": [
+    {
+      "institute": "Universidad Central de Venezuela",
+      "logo": "https://media.licdn.com/dms/image/C560BAQEqH4pTb_C3Vg/company-logo_400_400/0?e=1547078400&v=beta&t=w7dqsi-UJEkF4ChiuDRTSUPQ0H_hZiJ6NwWvix_b1Uc",
+      "url": "http://www.ciens.ucv.ve/",
+      "title": "Bachelor on Computer Science",
+      "durationInYears": "5",
+      "graduationYear": 2013
+    }
+  ],
+  "certifications": [
+    {
+      "logo": "https://www.certmetrics.com/api/ob/image/amazon/c/1",
+      "url": "https://aws.amazon.com/certification/certified-solutions-architect-associate/",
+      "title": "AWS Certified Solutions Architect - Associate",
+      "issuer": "Amazon Web Services",
+      "issueDate": "2018-09-01",
+      "expiryDate": "2020-09-01",
+      "verificationLink": "https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2018-09-13&ci=AWS00487431"
+    },
+    {
+      "logo": "https://acclaim-production-app.s3.amazonaws.com/images/86629924-6c10-442c-8742-05ff5e45e922/Oracle-Certification-badge_OC-Associate.png",
+      "url": "https://education.oracle.com/es/oracle-certified-associate-java-se-8-programmer/trackp_333",
+      "title": "Oracle Certified Associate, Java SE 8 Programmer",
+      "issuer": "Oracle",
+      "issueDate": "2016-05-01",
+      "verificationLink": "https://www.youracclaim.com/badges/aa466aec-ddbc-4e67-8038-aa8466a4aef9/linked_in_profile"
+    }
+  ],
+  "experiences": [
+    {
+      "companyName": "ServiceRocket",
+      "logo": "https://media.licdn.com/dms/image/C560BAQE0UGAq3qc4PA/company-logo_200_200/0?e=1547078400&v=beta&t=wPEtCDSDDI8HHn779fD3yG5tr95YQC6pe71f81HU7oQ",
+      "url": "https://www.servicerocket.com/",
+      "roles": [
+        {
+          "title": "Software developer",
+          "description": "Development of Application (bots, add-ons) that help simplify day-to-day work for companies using platforms such as Workplace or Atlassian products. To achieve this purpose, Serverless framework is being used taking advantage of AWS stack technologies.",
+          "startDate": "2018-01-01",
+          "currentJob": true,
+          "location": "Santiago Province, Chile"
+        },
+        {
+          "title": "Agile Java Developer",
+          "description": "Own the processes of squad, develop code, develop user stories, estimates and other attachments, collaboratively with Product Owner through formal and informal meetings, manage the risks of committed backlog items, manage the quality of processes, output, and throughput.",
+          "startDate": "2016-07-01",
+          "endDate": "2018-01-01",
+          "location": "Santiago Province, Chile"
+        }
+      ]
+    },
+    {
+      "companyName": "Alaya Digital Solutions",
+      "logo": "https://media.licdn.com/dms/image/C4D0BAQEOGmtbMe-jiA/company-logo_400_400/0?e=1547078400&v=beta&t=O-BNIwr7tSojDadQq7WHlBT349-M2WEl7tgY4IJxLzU",
+      "url": "http://www.alaya.cl/",
+      "roles": [
+        {
+          "title": "Project Lead",
+          "description": "In charge of planning, take decissions about the technology to used and manage projects with a software development team with abilities to build web applications. This job position requires to have knowledges of the technology used such as Java 8, Spring 4, Hibernate, J2EE, Oracle DB, Weblogic and be able to write the code if neccessary.",
+          "startDate": "2016-03-01",
+          "endDate": "2016-07-01",
+          "location": "Santiago Province, Chile"
+        },
+        {
+          "title": "Software Engineer",
+          "description": "In charge of building applications for public entities working with backend (J2EE, Srping, Hibernate, OracleDB) and frontend (ExtJs) through REST web services. Responsible of applying good design patterns allowing the increment of software easier and faster on each iteration.",
+          "startDate": "2015-10-01",
+          "endDate": "2016-03-01",
+          "location": "Santiago Province, Chile"
+        }
+      ]
+    },
+    {
+      "companyName": "Synergy-GB",
+      "logo": "https://media.licdn.com/dms/image/C4E0BAQG8mmQH36m-Xg/company-logo_400_400/0?e=1547078400&v=beta&t=ijgqvtMLx6iNypHtW_7WySNju7rTP7Tvo3ujAchGvck",
+      "url": "http://www.alaya.cl/",
+      "roles": [
+        {
+          "title": "Project Lead",
+          "description": "Project engineer with interest on design and develop of software components responsible for managing the logic and systems integration, that allow communicate web and mobile applications with the data sources of a business. With experiences developing REST/SOAP web services in Java and design and modeling of data for SQL and No-SQL databases.",
+          "startDate": "2014-04-01",
+          "endDate": "2015-10-01",
+          "location": "Caracas, Venezuela"
+        }
+      ]
+    },
+    {
+      "companyName": "IBM",
+      "logo": "https://media.licdn.com/dms/image/C560BAQEZL5_LD7kuhg/company-logo_400_400/0?e=1547078400&v=beta&t=kD5vayFgrDcbzzpbNYhpfPPF0kr-pQWAnuHdl0j7mRU",
+      "url": "https://www.ibm.com/ve-es/",
+      "roles": [
+        {
+          "title": "Sap Consultant",
+          "description": "ABAP and Portal Consultant with interest of developing ABAP programs that can be use at a high level for other departments and also with abilities to install and migrate a Portal SAP system.",
+          "startDate": "2013-06-01",
+          "endDate": "2014-03-01",
+          "location": "Caracas, Venezuela"
+        }
+      ]
+    },
+    {
+      "companyName": "4Geeks",
+      "logo": "https://media.licdn.com/dms/image/C4D0BAQERvzTMXtxd7g/company-logo_400_400/0?e=1547078400&v=beta&t=I_dafILp03Xn8WaI9-9IBHah7Z5wPpW55D8WY1kgR6c",
+      "url": "https://www.4geeksacademy.co",
+      "roles": [
+        {
+          "title": "Web programmer",
+          "description": "In charge of developing web services using the framework Django used for a e-commerce web site",
+          "startDate": "2012-11-01",
+          "endDate": "2013-03-01",
+          "location": "Caracas, Venezuela"
+        }
+      ]
+    }
+  ]
+}

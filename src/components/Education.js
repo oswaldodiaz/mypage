@@ -18,15 +18,21 @@ class Education extends React.Component {
                   <a href={study.url}>{study.institute}</a>
                 </Media>
                 <Row>
-                  <Col className="formLabel" xs="3" sm="2">Title:</Col>
+                  <Col className="formLabel">Title:</Col>
+                </Row>
+                <Row>
                   <Col>{study.title}</Col>
                 </Row>
                 <Row>
-                  <Col className="formLabel" xs="3" sm="2">Graduation Year:</Col>
+                  <Col className="formLabel">Graduation Year:</Col>
+                </Row>
+                <Row>
                   <Col>{study.graduationYear}</Col>
                 </Row>
                 <Row>
-                  <Col className="formLabel" xs="3" sm="2">Duration:</Col>
+                  <Col className="formLabel">Duration:</Col>
+                </Row>
+                <Row>
                   <Col>{study.durationInYears} year(s)</Col>
                 </Row>
               </Media>

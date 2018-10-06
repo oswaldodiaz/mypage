@@ -1,9 +1,8 @@
-import React, {Component} from 'react';
-import profilePic from '../images/profilePic.jpg';
+import React from 'react';
 import {Container, Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
-import '../App.css';
+import profilePic from '../profilePic.jpg';
 
-class TopBar extends Component {
+class TopBar extends React.Component {
   constructor(props) {
     super(props);
 
@@ -31,7 +30,13 @@ class TopBar extends Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
+                <NavLink href="/posts/">Posts</NavLink>
+              </NavItem>
+              <NavItem>
                 <NavLink href="/profile/">Profile</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/about/">About</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
@@ -39,4 +44,6 @@ class TopBar extends Component {
       </Navbar>
     );
   }
-} export default TopBar;
+}
+
+export default TopBar;

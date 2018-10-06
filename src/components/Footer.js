@@ -1,26 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {Container} from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 
-import '../App.css';
-
-class Footer extends Component {
-  constructor(props) {
-    super(props);
-
-    this.toggle = this.toggle.bind(this);
-    this.state = {
-      isOpen: false
-    };
-  }
-
-  toggle() {
-    this.setState({
-      isOpen: !this.state.isOpen
-    });
-  }
-
+class Footer extends React.Component {
   render() {
     return (
       <footer>
@@ -30,7 +13,7 @@ class Footer extends Component {
           <a href="https://github.com/oswaldodiaz"><FontAwesomeIcon icon={faGithub}  /></a>
         </Container>
       </footer>
-    );
+    )
   }
 }
 

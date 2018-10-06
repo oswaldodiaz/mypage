@@ -17,24 +17,31 @@ class Education extends React.Component {
                 <Media heading>
                   <a href={study.url}>{study.institute}</a>
                 </Media>
-                <Row>
-                  <Col className="formLabel">Title:</Col>
-                </Row>
-                <Row>
-                  <Col>{study.title}</Col>
-                </Row>
-                <Row>
-                  <Col className="formLabel">Graduation Year:</Col>
-                </Row>
-                <Row>
-                  <Col>{study.graduationYear}</Col>
-                </Row>
-                <Row>
-                  <Col className="formLabel">Duration:</Col>
-                </Row>
-                <Row>
-                  <Col>{study.durationInYears} year(s)</Col>
-                </Row>
+                {
+                  [
+                    {
+                      "key": "Title",
+                      "value": study.title
+                    },
+                    {
+                      "key": "Graduation Year",
+                      "value": study.graduationYear
+                    },
+                    {
+                      "key": "Duration",
+                      "value": study.durationInYears + " year(s)"
+                    }
+                  ].map(function (object, i) {
+                    return <div>
+                      <Row>
+                        <Col className="formLabel">{object.key}:</Col>
+                      </Row>
+                      <Row>
+                        <Col>{object.value}</Col>
+                      </Row>
+                    </div>
+                  })
+                }
               </Media>
             </Media>
           })}
@@ -46,8 +53,8 @@ class Education extends React.Component {
         <Col>
           <h4>Certifications:</h4>
           <hr/>
-          {profile.certifications.map(function(certification, i) {
-            const verification = certification.verificationLink?
+          {profile.certifications.map(function (certification, i) {
+            const verification = certification.verificationLink ?
               <Row>
                 <Col>
                   <a className="certificateLink" href={certification.verificationLink}>See certificate</a>
@@ -62,7 +69,7 @@ class Education extends React.Component {
                   <a href={certification.url}>{certification.title}</a>
                 </Media>
                 <Row>
-                  <Col>{moment(certification.issueDate).format('MMM YYYY')} - {(certification.expiryDate)? moment(certification.expiryDate).format('MMM YYYY') : 'Present'}</Col>
+                  <Col>{moment(certification.issueDate).format('MMM YYYY')} - {(certification.expiryDate) ? moment(certification.expiryDate).format('MMM YYYY') : 'Present'}</Col>
                 </Row>
                 <Row>
                   <Col>{certification.issuer}</Col>

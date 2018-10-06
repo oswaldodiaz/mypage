@@ -4,10 +4,7 @@ import profile from "../profile";
 import moment from "moment";
 import { Media } from "reactstrap";
 
-function getDurationDate(duration) {
-  console.log(duration);
-  console.log(duration/12);
-  console.log(Number(duration/12).toPrecision(1));
+function getDuration(duration) {
   const years = parseInt(duration / 12);
   const months = (duration > 12)? duration % 12 : duration
   return (years > 0? years + " year" + (years > 1? "s": "") + " and " : "") + (months > 0? months + " month" + (months > 1? "s": "") : "");
@@ -37,7 +34,7 @@ class Experience extends React.Component {
                   <Media body>
                     <Media heading>
                       <a href={experience.url}>{experience.companyName}</a>
-                      <span className="jobTotalDuration">{getDurationDate(totalDuration)}</span>
+                      <span className="jobTotalDuration">{getDuration(totalDuration)}</span>
                     </Media>
 
                     {experience.roles.map(function (role, i) {
@@ -48,7 +45,7 @@ class Experience extends React.Component {
                       return <div key={i}>
                         <h5>{role.title}</h5>
                         <span
-                          className="jobDuration">{startDate.format('MMM YYYY')} - {role.currentJob ? 'Present' : timeEnd.format('MMM YYYY')} ({getDurationDate(duration)})</span>
+                          className="jobDuration">{startDate.format('MMM YYYY')} - {role.currentJob ? 'Present' : timeEnd.format('MMM YYYY')} ({getDuration(duration)})</span>
                         <span className="jobLocation">{role.location}</span>
                         <p className="jobDescription">{role.description}</p>
                       </div>

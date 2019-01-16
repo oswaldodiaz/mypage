@@ -4,7 +4,7 @@
   "studies": [
     {
       "institute": "Universidad Central de Venezuela",
-      "logo": "https://media.licdn.com/dms/image/C560BAQEqH4pTb_C3Vg/company-logo_400_400/0?e=1547078400&v=beta&t=w7dqsi-UJEkF4ChiuDRTSUPQ0H_hZiJ6NwWvix_b1Uc",
+      "logo": "https://d37pqi2hh7xyas.cloudfront.net/ucv.png",
       "url": "http://www.ciens.ucv.ve/",
       "title": "Bachelor on Computer Science",
       "durationInYears": "5",
@@ -13,7 +13,7 @@
   ],
   "certifications": [
     {
-      "logo": "https://www.certmetrics.com/api/ob/image/amazon/c/1",
+      "logo": "https://d37pqi2hh7xyas.cloudfront.net/aws.png",
       "url": "https://aws.amazon.com/certification/certified-solutions-architect-associate/",
       "title": "AWS Certified Solutions Architect - Associate",
       "issuer": "Amazon Web Services",
@@ -22,7 +22,7 @@
       "verificationLink": "https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2018-09-13&ci=AWS00487431"
     },
     {
-      "logo": "https://acclaim-production-app.s3.amazonaws.com/images/86629924-6c10-442c-8742-05ff5e45e922/Oracle-Certification-badge_OC-Associate.png",
+      "logo": "https://d37pqi2hh7xyas.cloudfront.net/Oracle-Certification-badge_OC-Associate.png",
       "url": "https://education.oracle.com/es/oracle-certified-associate-java-se-8-programmer/trackp_333",
       "title": "Oracle Certified Associate, Java SE 8 Programmer",
       "issuer": "Oracle",
@@ -33,7 +33,7 @@
   "experiences": [
     {
       "companyName": "ServiceRocket",
-      "logo": "https://media.licdn.com/dms/image/C560BAQE0UGAq3qc4PA/company-logo_200_200/0?e=1547078400&v=beta&t=wPEtCDSDDI8HHn779fD3yG5tr95YQC6pe71f81HU7oQ",
+      "logo": "https://d37pqi2hh7xyas.cloudfront.net/servicerocket.png",
       "url": "https://www.servicerocket.com/",
       "roles": [
         {
@@ -54,7 +54,7 @@
     },
     {
       "companyName": "Alaya Digital Solutions",
-      "logo": "https://media.licdn.com/dms/image/C4D0BAQEOGmtbMe-jiA/company-logo_400_400/0?e=1547078400&v=beta&t=O-BNIwr7tSojDadQq7WHlBT349-M2WEl7tgY4IJxLzU",
+      "logo": "https://d37pqi2hh7xyas.cloudfront.net/alaya.png",
       "url": "http://www.alaya.cl/",
       "roles": [
         {
@@ -75,7 +75,7 @@
     },
     {
       "companyName": "Synergy-GB",
-      "logo": "https://media.licdn.com/dms/image/C4E0BAQG8mmQH36m-Xg/company-logo_400_400/0?e=1547078400&v=beta&t=ijgqvtMLx6iNypHtW_7WySNju7rTP7Tvo3ujAchGvck",
+      "logo": "https://d37pqi2hh7xyas.cloudfront.net/synergy.jpeg",
       "url": "http://www.alaya.cl/",
       "roles": [
         {
@@ -89,7 +89,7 @@
     },
     {
       "companyName": "IBM",
-      "logo": "https://media.licdn.com/dms/image/C560BAQEZL5_LD7kuhg/company-logo_400_400/0?e=1547078400&v=beta&t=kD5vayFgrDcbzzpbNYhpfPPF0kr-pQWAnuHdl0j7mRU",
+      "logo": "https://d37pqi2hh7xyas.cloudfront.net/ibm.png",
       "url": "https://www.ibm.com/ve-es/",
       "roles": [
         {
@@ -103,7 +103,7 @@
     },
     {
       "companyName": "4Geeks",
-      "logo": "https://media.licdn.com/dms/image/C4D0BAQERvzTMXtxd7g/company-logo_400_400/0?e=1547078400&v=beta&t=I_dafILp03Xn8WaI9-9IBHah7Z5wPpW55D8WY1kgR6c",
+      "logo": "https://d37pqi2hh7xyas.cloudfront.net/4geeks.png",
       "url": "https://www.4geeksacademy.co",
       "roles": [
         {

@@ -1,6 +1,6 @@
 {
   "title": "Software Engineer",
-  "summary": "I'm passionate about Computer Software development, looking always for different and most efficient solutions to daily problems of clients. Always growing as a person and as a co worker, looking always to give my best for the company I'm working with.",
+  "summary": "I’m a 5+ years Software Engineer, with strong skills in backend development. I define myself as a quick learner, goal-oriented, and team worker. Since the beginning of 2018 I’ve been devoted to learning and working with AWS stack technologies, I’m certified as an AWS Certified Solutions Architect – Associate and AWS Certified Developer - Associate.",
   "studies": [
     {
       "institute": "Universidad Central de Venezuela",
@@ -13,7 +13,16 @@
   ],
   "certifications": [
     {
-      "logo": "https://d37pqi2hh7xyas.cloudfront.net/aws.png",
+      "logo": "https://d37pqi2hh7xyas.cloudfront.net/aws-developer.png",
+      "url": "https://aws.amazon.com/certification/certified-developer-associate/",
+      "title": "AWS Certified Developer - Associate",
+      "issuer": "Amazon Web Services",
+      "issueDate": "2010-02-18",
+      "expiryDate": "2022-02-18",
+      "verificationLink": "https://www.certmetrics.com/amazon/public/badge.aspx?i=2&t=c&d=2019-02-18&ci=AWS00487431"
+    },
+    {
+      "logo": "https://d37pqi2hh7xyas.cloudfront.net/aws-architect.png",
       "url": "https://aws.amazon.com/certification/certified-solutions-architect-associate/",
       "title": "AWS Certified Solutions Architect - Associate",
       "issuer": "Amazon Web Services",
@@ -37,17 +46,17 @@
       "url": "https://www.servicerocket.com/",
       "roles": [
         {
-          "title": "Software developer",
-          "description": "Development of Application (bots, add-ons) that help simplify day-to-day work for companies using platforms such as Workplace or Atlassian products. To achieve this purpose, Serverless framework is being used taking advantage of AWS stack technologies.",
-          "startDate": "2018-01-01",
+          "title": "Engineering Manager",
+          "description": "Accountable of supporting the team to achieve business goals and personal fulfillment at work, increasing the overall throughput by reducing lead time​ and cost. Increase the efficiency of the systems​ by proactively identifying and correcting wastes in our processes.",
+          "startDate": "2019-02-01",
           "currentJob": true,
           "location": "Santiago Province, Chile"
         },
         {
           "title": "Agile Java Developer",
-          "description": "Own the processes of squad, develop code, develop user stories, estimates and other attachments, collaboratively with Product Owner through formal and informal meetings, manage the risks of committed backlog items, manage the quality of processes, output, and throughput.",
+          "description": "In charge of the creation of apps that integrate multiple platforms using AWS technologies and python as a first language while taking advantage of SCRUM methodology to deliver fast and iterative software.",
           "startDate": "2016-07-01",
-          "endDate": "2018-01-01",
+          "endDate": "2019-02-01",
           "location": "Santiago Province, Chile"
         }
       ]

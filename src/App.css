@@ -1,125 +1,135 @@
 a {
-    color: black;
+  color: black;
 }
 
 a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .profileSummaryPicture img {
-    width: 100%;
-    border-radius: 50%;
+  width: 100%;
+  border-radius: 50%;
 }
 
 .profilePic {
-    height: 4vmin;
-    margin-right: 10px;
-    border-radius: 50px;
+  height: 4vmin;
+  margin-right: 10px;
+  border-radius: 50px;
 }
 
 .profileSummary {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    border-top: #444444;
-    text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-top: #444444;
+  text-align: center;
 }
 
 .profileSummary .social a {
-    color: black;
-    font-size: 30px;
-    margin-right: 10px;
-    margin-left: 10px;
+  color: black;
+  font-size: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
-.certifications .col {
-    width: 20%;
+.certifications {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+}
+
+.certifications img {
+  width: 100%;
+  max-height: 20vmin;
+  max-width: 20vmin;
 }
 
 div.media {
-    margin-top: 30px;
-    margin-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 div.media .media-heading .jobTotalDuration {
-    color: #666;
-    font-size: 14px;
-    display: block;
+  color: #666;
+  font-size: 14px;
+  display: block;
 }
 
 div.media img {
-    max-height: 15vmin;
-    max-width: 15vmin;
-    margin-right: 10px;
-    border-radius: 5px;
+  max-height: 20vmin;
+  max-width: 20vmin;
+  margin-right: 10px;
+  border-radius: 5px;
 }
 
 div.media .jobDuration {
-    color: #444;
-    display: block;
+  color: #444;
+  display: block;
 }
 
 div.media .jobLocation {
-    color: #666;
+  color: #666;
 }
 
 .formLabel {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .certificateLink {
-    color: cornflowerblue;
+  color: cornflowerblue;
 }
 
 .container h2 {
-    margin-top: 10px;
-    padding-bottom: 10px;;
-    border-bottom: solid #e9ecef;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: solid #e9ecef;
 }
 
 .container .image img {
-    width: 100%;
-    border-radius: 50%;
+  width: 100%;
+  border-radius: 50%;
 }
 
 .about {
-    font-style: italic;
+  font-style: italic;
 }
 
 .about .media img {
-    height: 10vmin;
-    max-width: 10vmin;
-    width: 100%;
-    margin-left: 10px;
-    margin-right: 10px;
-    border-radius: 100%;
+  height: 10vmin;
+  max-width: 10vmin;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 100%;
 }
 
 .about a {
-    color: #007bff;
-    text-decoration: underline;
+  color: #007bff;
+  text-decoration: underline;
 }
 
 .about .aboutImage img {
-    height: 20px;
-    width: 20px;
-    margin-right: 10px;
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
 }
 
 .about .aboutTitle {
-    height: 10px;
-    text-align: center;
+  height: 10px;
+  text-align: center;
 }
 
 footer {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    border-top: #444444;
-    text-align: center;
+  padding-top: 20px;
+  padding-bottom: 12px;
+  margin-top: 25px;
+  border-top: #444444;
+  text-align: center;
+  background-color: #e9ecef;
 }
 
 footer a {
-    color: black;
-    font-size: 30px;
-    margin-right: 10px;
-    margin-left: 10px;
+  color: black;
+  font-size: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
 }

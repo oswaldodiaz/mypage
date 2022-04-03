@@ -8,7 +8,7 @@ export const ProfileSummary = () => {
     <Jumbotron>
       <Container className="profileSummary">
         <Row>
-          <Col className="profileSummaryPicture" xs="3">
+          <Col className="profileSummaryPicture" xs="12" md={3}>
             <Image name="profilePic.png" alt="Oswaldo Diaz's profile picture" />
           </Col>
           <Col>

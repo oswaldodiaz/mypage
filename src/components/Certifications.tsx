@@ -6,9 +6,9 @@ import { Image } from "../utils/Image";
 export const Certifications = () => {
   const education = getData("education");
   return (
-    <Container>
+    <Container className="certifications">
       <h2>Certifications</h2>
-      <Row className="certifications">
+      <Row>
         {education.certifications.map(function (certification: any, i: number) {
           return (
             <Col key={i} xs={2} md={2}>

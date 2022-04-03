@@ -12,7 +12,7 @@ a:hover {
 }
 
 .profilePic {
-  height: 4vmin;
+  max-height: 4vmin;
   margin-right: 10px;
   border-radius: 50px;
 }
@@ -38,9 +38,12 @@ a:hover {
 }
 
 .certifications img {
-  width: 100%;
-  max-height: 20vmin;
-  max-width: 20vmin;
+  width: 130%;
+  margin-right: 50px;
+}
+
+.certifications .media {
+  /* padding-right: 40px; */
 }
 
 div.media {

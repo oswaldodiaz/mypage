@@ -10,10 +10,7 @@ export const ProfileSummary = () => {
       <Container className="profileSummary">
         <Row>
           <Col className="profileSummaryPicture" xs="3">
-            <Image
-              name="profilePic.jpeg"
-              alt="Oswaldo Diaz's profile picture"
-            />
+            <Image name="profilePic.png" alt="Oswaldo Diaz's profile picture" />
           </Col>
           <Col>
             <h1 className="display-3">Hello, I'm Oswaldo</h1>

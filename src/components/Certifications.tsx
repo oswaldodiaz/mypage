@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col, Media } from "reactstrap";
-import moment from "moment";
 import { getData } from "../utils/dataExtractor";
 import { Image } from "../utils/Image";
 
@@ -9,7 +8,7 @@ export const Certifications = () => {
   return (
     <Container>
       <h2>Certifications</h2>
-      <Row>
+      <Row className="certifications">
         {education.certifications.map(function (certification: any, i: number) {
           return (
             <Col>

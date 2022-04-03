@@ -30,6 +30,10 @@ a:hover {
     margin-left: 10px;
 }
 
+.certifications .col {
+    width: 20%;
+}
+
 div.media {
     margin-top: 30px;
     margin-bottom: 10px;
@@ -42,10 +46,10 @@ div.media .media-heading .jobTotalDuration {
 }
 
 div.media img {
-    height: 15vmin;
-    width: 15vmin;
+    max-height: 20vmin;
+    max-width: 20vmin;
     margin-right: 10px;
-    border-radius: 50px;
+    border-radius: 5px;
 }
 
 div.media .jobDuration {
@@ -66,7 +70,7 @@ div.media .jobLocation {
 }
 
 .container {
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
 .container h2 {

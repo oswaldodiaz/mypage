@@ -11,7 +11,7 @@ export const Certifications = () => {
       <Row className="certifications">
         {education.certifications.map(function (certification: any, i: number) {
           return (
-            <Col>
+            <Col key={i}>
               <Media key={i}>
                 <Media left top href={certification.verificationLink}>
                   <Image name={certification.logo} alt={certification.title} />

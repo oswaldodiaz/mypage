@@ -33,14 +33,14 @@ export const Education = () => {
                       key: "Duration",
                       value: study.durationInYears + " year(s)",
                     },
-                  ].map(function (object, i) {
+                  ].map((element: any, j: number) => {
                     return (
-                      <div>
+                      <div key={"study-" + j}>
                         <Row>
-                          <Col className="formLabel">{object.key}:</Col>
+                          <Col className="formLabel">{element.key}:</Col>
                         </Row>
                         <Row>
-                          <Col>{object.value}</Col>
+                          <Col>{element.value}</Col>
                         </Row>
                       </div>
                     );

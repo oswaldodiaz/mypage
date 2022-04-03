@@ -1,5 +1,4 @@
 import React from "react";
-import "./ProfileSummary.css";
 import { Jumbotron, Container, Row, Col } from "reactstrap";
 import { Image } from "../utils/Image";
 import SocialIcons from "./SocialIcons";
@@ -21,9 +20,9 @@ export const ProfileSummary = () => {
               been devoted to learning and working with AWS stack technologies,
               you can check my certifications below.
             </p>
-            <p>
+            <div>
               <SocialIcons />
-            </p>
+            </div>
           </Col>
         </Row>
       </Container>

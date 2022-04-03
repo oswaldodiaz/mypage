@@ -70,10 +70,6 @@ div.media .jobLocation {
     color: cornflowerblue;
 }
 
-.container {
-    /* margin-bottom: 30px; */
-}
-
 .container h2 {
     margin-top: 10px;
     padding-bottom: 10px;;
@@ -83,6 +79,37 @@ div.media .jobLocation {
 .container .image img {
     width: 100%;
     border-radius: 50%;
+}
+
+.about {
+    font-style: italic;
+    text-align: center;
+}
+
+.about .col {
+    width: 10%;
+}
+
+.about .media img {
+    height: 10vmin;
+    max-width: 10vmin;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 100%;
+}
+
+.about a {
+    color: cyan;
+}
+
+.about .aboutImage {
+    height: 120px;
+}
+
+.about .aboutTitle {
+    height: 10px;
+    text-align: center;
 }
 
 footer {

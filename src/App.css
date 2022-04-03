@@ -83,11 +83,6 @@ div.media .jobLocation {
 
 .about {
     font-style: italic;
-    text-align: center;
-}
-
-.about .col {
-    width: 10%;
 }
 
 .about .media img {
@@ -100,11 +95,14 @@ div.media .jobLocation {
 }
 
 .about a {
-    color: cyan;
+    color: #007bff;
+    text-decoration: underline;
 }
 
-.about .aboutImage {
-    height: 120px;
+.about .aboutImage img {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
 }
 
 .about .aboutTitle {

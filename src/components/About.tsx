@@ -10,7 +10,7 @@ const images: any = [
   },
   {
     link: "https://reactstrap.github.io/",
-    alt: "reactstrap",
+    alt: "Reactstrap",
     logo: "reactstrap.png",
   },
   {
@@ -25,7 +25,7 @@ const images: any = [
   },
   {
     link: "https://github.com/ReactTraining/react-router",
-    alt: "react-router",
+    alt: "React-router",
     logo: "reactRouter.png",
   },
   {
@@ -36,7 +36,7 @@ const images: any = [
 ];
 
 export const About = () => (
-  <Container>
+  <Container className="about">
     <br />
     <hr />
     <br />
@@ -48,25 +48,21 @@ export const About = () => (
         </span>
       </Col>
     </Row>
-    <Row className="about">
-      {images.map(function (image: any, i: number) {
-        return (
-          <Col xs={2} md={2} key={i}>
+    <Row>
+      <Col>
+        {images.map(function (image: any, i: number) {
+          return (
+            // <Col xs={2} md={2} key={i}>
             <Row className="aboutImage">
-              <Media key={i}>
-                <Media middle href={image.link}>
-                  <Image name={image.logo} alt={image.alt} />
-                </Media>
-              </Media>
-            </Row>
-            <Row className="aboutTitle">
-              <Col xs={1.5} md={1.5}>
+              <Col>
+                <Image name={image.logo} alt={image.alt} />
                 <strong>{image.alt}</strong>
               </Col>
             </Row>
-          </Col>
-        );
-      })}
+            // </Col>
+          );
+        })}
+      </Col>
     </Row>
 
     <br />

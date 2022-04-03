@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Navbar, NavbarBrand } from "reactstrap";
-import profilePic from "../profilePic.jpg";
 import { Image } from "../utils/Image";
 
 export const TopBar = () => {
@@ -13,7 +12,7 @@ export const TopBar = () => {
             alt="Oswaldo Díaz"
             className="profilePic"
           />
-          <span>@imoswidiaz</span>
+          <strong>@imoswidiaz</strong>
         </NavbarBrand>
       </Container>
     </Navbar>

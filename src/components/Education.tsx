@@ -1,9 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Media } from "reactstrap";
-import moment from "moment";
 import { getData } from "../utils/dataExtractor";
 import { Image } from "../utils/Image";
-// import profile from "../profile.json";
 
 export const Education = () => {
   const education = getData("education");

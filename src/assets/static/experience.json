@@ -1,0 +1,100 @@
+[
+  {
+    "companyName": "Amazon",
+    "logo": "amazonLogo.jpeg",
+    "url": "https://www.amazon.com/",
+    "roles": [
+      {
+        "title": "Software Developer Engineering II",
+        "description": "TBD",
+        "startDate": "2021-10-04",
+        "currentJob": true,
+        "location": "Toronto, Canada"
+      }
+    ]
+  },
+  {
+    "companyName": "ServiceRocket",
+    "logo": "serviceRocketLogo.jpeg",
+    "url": "https://www.servicerocket.com/",
+    "roles": [
+      {
+        "title": "Engineering Manager",
+        "description": "Accountable of supporting the team to achieve business goals and personal fulfillment at work, increasing the overall throughput by reducing lead time​ and cost. Increase the efficiency of the systems​ by proactively identifying and correcting wastes in our processes.",
+        "startDate": "2019-02-01",
+        "endDate": "2021-09-06",
+        "location": "Santiago Province, Chile"
+      },
+      {
+        "title": "Agile Java Developer",
+        "description": "In charge of the creation of apps that integrate multiple platforms using AWS technologies and python as a first language while taking advantage of SCRUM methodology to deliver fast and iterative software.",
+        "startDate": "2016-07-01",
+        "endDate": "2019-02-01",
+        "location": "Santiago Province, Chile"
+      }
+    ]
+  },
+  {
+    "companyName": "Alaya Digital Solutions",
+    "logo": "alayaLogo.jpeg",
+    "url": "https://www.alaya.cl/",
+    "roles": [
+      {
+        "title": "Project Lead",
+        "description": "In charge of planning, take decissions about the technology to used and manage projects with a software development team with abilities to build web applications. This job position requires to have knowledges of the technology used such as Java 8, Spring 4, Hibernate, J2EE, Oracle DB, Weblogic and be able to write the code if neccessary.",
+        "startDate": "2016-03-01",
+        "endDate": "2016-07-01",
+        "location": "Santiago Province, Chile"
+      },
+      {
+        "title": "Software Engineer",
+        "description": "In charge of building applications for public entities working with backend (J2EE, Srping, Hibernate, OracleDB) and frontend (ExtJs) through REST web services. Responsible of applying good design patterns allowing the increment of software easier and faster on each iteration.",
+        "startDate": "2015-10-01",
+        "endDate": "2016-03-01",
+        "location": "Santiago Province, Chile"
+      }
+    ]
+  },
+  {
+    "companyName": "Synergy-GB",
+    "logo": "synergyLogo.jpeg",
+    "url": "https://synergy-gb.com/",
+    "roles": [
+      {
+        "title": "Project Lead",
+        "description": "Project engineer with interest on design and develop of software components responsible for managing the logic and systems integration, that allow communicate web and mobile applications with the data sources of a business. With experiences developing REST/SOAP web services in Java and design and modeling of data for SQL and No-SQL databases.",
+        "startDate": "2014-04-01",
+        "endDate": "2015-10-01",
+        "location": "Caracas, Venezuela"
+      }
+    ]
+  },
+  {
+    "companyName": "IBM",
+    "logo": "ibmLogo.jpeg",
+    "url": "https://www.ibm.com/ve-es/",
+    "roles": [
+      {
+        "title": "Sap Consultant",
+        "description": "ABAP and Portal Consultant with interest of developing ABAP programs that can be use at a high level for other departments and also with abilities to install and migrate a Portal SAP system.",
+        "startDate": "2013-06-01",
+        "endDate": "2014-03-01",
+        "location": "Caracas, Venezuela"
+      }
+    ]
+  },
+  {
+    "companyName": "4Geeks",
+    "logo": "4geeksLogo.jpeg",
+    "url": "https://www.4geeksacademy.co",
+    "roles": [
+      {
+        "title": "Web programmer (Intern)",
+        "description": "In charge of developing web services using the framework Django used for a e-commerce web site",
+        "startDate": "2012-11-01",
+        "endDate": "2013-03-01",
+        "location": "Caracas, Venezuela"
+      }
+    ]
+  }
+]

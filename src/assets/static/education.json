@@ -1,0 +1,58 @@
+{
+  "studies": [
+    {
+      "institute": "Universidad Central de Venezuela",
+      "logo": "ucvLogo.jpeg",
+      "url": "http://www.ciens.ucv.ve/",
+      "title": "Bachelor on Computer Science",
+      "durationInYears": "5",
+      "graduationYear": 2013
+    }
+  ],
+  "certifications": [
+    {
+      "logo": "AWS-DevOpsEngineer-Professional-2020.png",
+      "url": "https://aws.amazon.com/certification/certified-devops-engineer-professional/",
+      "title": "AWS Certified DevOps Engineer - Professional",
+      "issuer": "Amazon Web Services",
+      "issueDate": "2022-02-26",
+      "expiryDate": "2025-02-26",
+      "verificationLink": "https://www.credly.com/badges/07f5eeb7-6941-4af4-b214-087ef7cd5a4a?source=linked_in_profile"
+    },
+    {
+      "logo": "AWS-SysOpAdmin-Associate-2020.png",
+      "url": "https://aws.amazon.com/certification/certified-sysops-admin-associate/",
+      "title": "AWS Certified SysOps Administrator – Associate",
+      "issuer": "Amazon Web Services",
+      "issueDate": "2020-12-28",
+      "expiryDate": "2023-12-28",
+      "verificationLink": "https://www.credly.com/badges/aa77a59d-33b6-4aa1-acf7-45f54533cb88/linked_in_profile"
+    },
+    {
+      "logo": "AWS-Developer-Associate-2020.png",
+      "url": "https://aws.amazon.com/certification/certified-developer-associate/",
+      "title": "AWS Certified Developer - Associate",
+      "issuer": "Amazon Web Services",
+      "issueDate": "2019-02-18",
+      "expiryDate": "2022-02-18",
+      "verificationLink": "https://www.certmetrics.com/amazon/public/badge.aspx?i=2&t=c&d=2019-02-18&ci=AWS00487431"
+    },
+    {
+      "logo": "AWS-SolArchitect-Associate-2020.png",
+      "url": "https://aws.amazon.com/certification/certified-solutions-architect-associate/",
+      "title": "AWS Certified Solutions Architect - Associate",
+      "issuer": "Amazon Web Services",
+      "issueDate": "2018-09-01",
+      "expiryDate": "2021-09-01",
+      "verificationLink": "https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2018-09-13&ci=AWS00487431"
+    },
+    {
+      "logo": "oracleLogo.png",
+      "url": "https://education.oracle.com/es/oracle-certified-associate-java-se-8-programmer/trackp_333",
+      "title": "Oracle Certified Associate, Java SE 8 Programmer",
+      "issuer": "Oracle",
+      "issueDate": "2016-05-01",
+      "verificationLink": "https://www.credly.com/badges/aa466aec-ddbc-4e67-8038-aa8466a4aef9/linked_in_profile"
+    }
+  ]
+}

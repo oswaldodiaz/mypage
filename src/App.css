@@ -5,10 +5,29 @@ a:hover {
     text-decoration: none;
 }
 
+.profileSummaryPicture img {
+    width: 100%;
+    border-radius: 50%;
+}
+
 .profile-pic {
     height: 4vmin;
     margin-right: 10px;
     border-radius: 50px;
+}
+
+.profileSummary {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-top: #444444;
+    text-align: center;
+}
+
+.profileSummary .social a {
+    color: black;
+    font-size: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 div.media {
@@ -23,7 +42,8 @@ div.media .media-heading .jobTotalDuration {
 }
 
 div.media img {
-    height: 10vmin;
+    height: 15vmin;
+    width: 15vmin;
     margin-right: 10px;
     border-radius: 50px;
 }
@@ -43,6 +63,21 @@ div.media .jobLocation {
 
 .certificateLink {
     color: cornflowerblue;
+}
+
+.container {
+    margin-bottom: 30px;
+}
+
+.container h2 {
+    margin-top: 10px;
+    padding-bottom: 10px;;
+    border-bottom: solid #e9ecef;
+}
+
+.container .image img {
+    width: 100%;
+    border-radius: 50%;
 }
 
 footer {

@@ -21,7 +21,13 @@ export const Posts = () => {
                   </Media>
                   <Media body>
                     <Media heading>
-                      <a href={post.url}>{post.title}</a>
+                      <a
+                        href={post.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {post.title}
+                      </a>
                       <span className="jobTotalDuration">
                         {moment(post.date).format("YYYY, MMM Do")}
                       </span>

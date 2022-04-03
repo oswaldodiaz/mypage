@@ -13,12 +13,18 @@ export const Education = () => {
           {education.studies.map(function (study: any, i: number) {
             return (
               <Media key={i}>
-                <Media left top href={study.url}>
+                <Media left top href={study.url} rel="noopener noreferrer">
                   <Image name={study.logo} alt={study.title} />
                 </Media>
                 <Media body>
                   <Media heading>
-                    <a href={study.url}>{study.institute}</a>
+                    <a
+                      href={study.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {study.institute}
+                    </a>
                   </Media>
                   {[
                     {

@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Media } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 import { Image } from "../utils/Image";
 
 const images: any = [
@@ -52,14 +52,14 @@ export const About = () => (
       <Col>
         {images.map(function (image: any, i: number) {
           return (
-            // <Col xs={2} md={2} key={i}>
             <Row className="aboutImage">
               <Col>
-                <Image name={image.logo} alt={image.alt} />
-                <strong>{image.alt}</strong>
+                <a href={image.link} target="_blank" rel="noopener noreferrer">
+                  <Image name={image.logo} alt={image.alt} />
+                  <strong>{image.alt}</strong>
+                </a>
               </Col>
             </Row>
-            // </Col>
           );
         })}
       </Col>
@@ -70,7 +70,14 @@ export const About = () => (
       <Col>
         <p>
           The code can be found on my personal{" "}
-          <a href="https://github.com/oswaldodiaz/mypage">Github</a> account.
+          <a
+            href="https://github.com/oswaldodiaz/mypage"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Github
+          </a>{" "}
+          account.
         </p>
       </Col>
     </Row>

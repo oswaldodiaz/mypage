@@ -42,7 +42,13 @@ export const Experience = () => {
             return (
               <div key={i}>
                 <Media>
-                  <Media left top href={experience.url}>
+                  <Media
+                    left
+                    top
+                    href={experience.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <Image
                       name={experience.logo}
                       alt={experience.companyName}
@@ -50,7 +56,13 @@ export const Experience = () => {
                   </Media>
                   <Media body>
                     <Media heading>
-                      <a href={experience.url}>{experience.companyName}</a>
+                      <a
+                        href={experience.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {experience.companyName}
+                      </a>
                       <span className="jobTotalDuration">
                         {getDuration(totalDuration)}
                       </span>

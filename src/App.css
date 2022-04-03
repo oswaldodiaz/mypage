@@ -47,8 +47,8 @@ div.media .media-heading .jobTotalDuration {
 }
 
 div.media img {
-    max-height: 20vmin;
-    max-width: 20vmin;
+    max-height: 15vmin;
+    max-width: 15vmin;
     margin-right: 10px;
     border-radius: 5px;
 }

@@ -13,7 +13,13 @@ export const Certifications = () => {
           return (
             <Col key={i}>
               <Media key={i}>
-                <Media left top href={certification.verificationLink}>
+                <Media
+                  left
+                  top
+                  href={certification.verificationLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Image name={certification.logo} alt={certification.title} />
                 </Media>
               </Media>
